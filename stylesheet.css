@@ -1,28 +1,28 @@
 * {
-  ボックスサイズ：ボーダーボックス;
+  box-size: border-box;
 }
 
-体 {
-  マージン：0;
+body {
+  margin：0;
   font-family：「ひらぎの角ゴシックProN」;
 }
 
 {
-  text-decoration：なし。
+  text-decoration：none
 }
 
 .container {
-  幅：100％;
-  パディング：0 15px;
-  マージン：0自動;
+  width：100％;
+  padding：0 15px;
+  margin：0自動;
 }
 
 .top-wrapper {
-  パディング：180px 0 100px 0;
+  padding：180px 0 100px 0;
   background-image：url（top.png）;
-  背景サイズ：カバー;
-  色：白;
-  text-align：中央;
+  background-size：cover;
+  color：white;
+  text-align：center;
 }
 
 .top-wrapper h1 {
